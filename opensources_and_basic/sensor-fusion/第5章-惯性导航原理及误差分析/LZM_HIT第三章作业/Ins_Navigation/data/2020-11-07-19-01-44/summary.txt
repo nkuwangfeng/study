@@ -1,0 +1,48 @@
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100.0 Hz
+Reference frame: 1
+Simulation time duration: 10.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/lzm/Research/shenlan/MSF/Lesson3/gnss-ins-sim/demo_saved_data/2020-11-07-19-01-44
+The following results are saved:
+	time: sample time
+	ref_pos: true position in the local NED frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	accel_only_with_bias: accel_only_with_bias measurements
+	gyro: gyro measurements
+	gyro_only_with_bias: gyro_only_with_bias measurements
+	odo: odometer velocity measurement
+	vel: simulation velocity from algo
+	pos: simulation position from algo
+	att_euler: simulation attitude (Euler, ZYX)  from algo
+	att_quat: simulation attitude (quaternion)  from algo
+	ref_att_quat: true attitude (quaternion)
+
+------------------------------------------------------------
+The following are error statistics.
+-----------statistics for simulation velocity from algo (in units of ['m/s', 'm/s', 'm/s'])
+	Simulation run algo0_0:
+		--Max error: [0.00569464 0.00223903 0.00214719]
+		--Avg error: [ 0.00028322 -0.00136642 -0.00059324]
+		--Std of error: [0.00196947 0.00039984 0.00065019]
+
+-----------statistics for simulation position from algo (in units of ['m', 'm', 'm'])
+	Simulation run algo0_0:
+		--Max error: [0.00569638 0.0136515  0.00620202]
+		--Avg error: [-0.0021938  -0.00609586 -0.00312627]
+		--Std of error: [0.00223755 0.00414667 0.00203811]
+
+-----------statistics for simulation attitude (Euler, ZYX)  from algo (in units of ['deg', 'deg', 'deg'])
+	Simulation run algo0_0:
+		--Max error: [0.036161   0.01929305 0.01294052]
+		--Avg error: [ 0.01766443 -0.00531169 -0.00336091]
+		--Std of error: [0.01024845 0.00649186 0.00355799]
+

@@ -1,0 +1,48 @@
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100.0 Hz
+Reference frame: 1
+Simulation time duration: 80.06 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/lzm/Research/shenlan/MSF/Lesson3/gnss-ins-sim/demo_saved_data/2020-11-07-20-45-00
+The following results are saved:
+	time: sample time
+	ref_pos: true position in the local NED frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	accel_only_with_bias: accel_only_with_bias measurements
+	gyro: gyro measurements
+	gyro_only_with_bias: gyro_only_with_bias measurements
+	odo: odometer velocity measurement
+	vel: simulation velocity from algo
+	pos: simulation position from algo
+	att_euler: simulation attitude (Euler, ZYX)  from algo
+	att_quat: simulation attitude (quaternion)  from algo
+	ref_att_quat: true attitude (quaternion)
+
+------------------------------------------------------------
+The following are error statistics.
+-----------statistics for simulation velocity from algo (in units of ['m/s', 'm/s', 'm/s'])
+	Simulation run algo0_0:
+		--Max error: [1.40820599e+01 1.41619029e+01 6.69688615e-03]
+		--Avg error: [ 7.53657968e+00 -8.37417003e+00  2.99544569e-03]
+		--Std of error: [2.14088576e+00 1.80645685e+00 1.44652206e-03]
+
+-----------statistics for simulation position from algo (in units of ['m', 'm', 'm'])
+	Simulation run algo0_0:
+		--Max error: [430.16647562 681.26725582 329.13691365]
+		--Avg error: [-135.05002128 -362.88471754 -329.01767167]
+		--Std of error: [1.83868987e+02 2.00417185e+02 6.42233637e-02]
+
+-----------statistics for simulation attitude (Euler, ZYX)  from algo (in units of ['deg', 'deg', 'deg'])
+	Simulation run algo0_0:
+		--Max error: [4.50097808e+01 6.57289066e-02 3.06714585e-02]
+		--Avg error: [-4.49922356e+01 -4.65521844e-03 -1.30116070e-02]
+		--Std of error: [0.00881445 0.01551856 0.00599343]
+

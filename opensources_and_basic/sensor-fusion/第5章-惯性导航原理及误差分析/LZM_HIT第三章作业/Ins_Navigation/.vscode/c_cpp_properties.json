@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/lzm/Research/shenlan/MSF/ros_ws/devel/include",
+                "/opt/ros/kinetic/include",
+                "/home/lzm/Research/shenlan/MSF/ros_ws/src/chapter_2/A-LOAM-devel/include",
+                "/home/lzm/Research/shenlan/MSF/ros_ws/src/Lesson3/code_utils/include",
+                "/home/lzm/Research/shenlan/MSF/ros_ws/src/chapter_2/lidar_localization/include",
+                "/usr/include",
+                "/usr/include/eigen3",
+                "${workspaceFolder}/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
